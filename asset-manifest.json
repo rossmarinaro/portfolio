@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.ead7726b.chunk.css",
-    "main.js": "./static/js/main.f3734e93.chunk.js",
-    "main.js.map": "./static/js/main.f3734e93.chunk.js.map",
+    "main.js": "./static/js/main.a2aa3bdb.chunk.js",
+    "main.js.map": "./static/js/main.a2aa3bdb.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eaf2c1b8.js",
     "runtime-main.js.map": "./static/js/runtime-main.eaf2c1b8.js.map",
-    "static/js/2.6636feaf.chunk.js": "./static/js/2.6636feaf.chunk.js",
-    "static/js/2.6636feaf.chunk.js.map": "./static/js/2.6636feaf.chunk.js.map",
+    "static/js/2.ba759a44.chunk.js": "./static/js/2.ba759a44.chunk.js",
+    "static/js/2.ba759a44.chunk.js.map": "./static/js/2.ba759a44.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a194f186a30bc64f651bbf286067ffd4.js": "./precache-manifest.a194f186a30bc64f651bbf286067ffd4.js",
+    "precache-manifest.ec5364e72ac264c00fe3fe5c0e38727a.js": "./precache-manifest.ec5364e72ac264c00fe3fe5c0e38727a.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.ead7726b.chunk.css.map": "./static/css/main.ead7726b.chunk.css.map",
     "static/media/1.png": "./static/media/1.7b01625d.png",
@@ -31,20 +31,24 @@
     "static/media/collie flower.png": "./static/media/collie flower.1a8d0259.png",
     "static/media/dots.svg": "./static/media/dots.40322bf4.svg",
     "static/media/eggplant.png": "./static/media/eggplant.12d8a1ae.png",
+    "static/media/ghoulash.png": "./static/media/ghoulash.dd59e1c6.png",
+    "static/media/glutenfree.png": "./static/media/glutenfree.f8fe27d0.png",
     "static/media/icecream.png": "./static/media/icecream.3b26be31.png",
     "static/media/juicemafia.png": "./static/media/juicemafia.cccdd55f.png",
     "static/media/karina_alexi.png": "./static/media/karina_alexi.8422f09a.png",
     "static/media/me.png": "./static/media/me.729ded7c.png",
+    "static/media/noodles.png": "./static/media/noodles.9793f621.png",
     "static/media/pastaboss.png": "./static/media/pastaboss.7fd82698.png",
     "static/media/randori.png": "./static/media/randori.dbc42e8d.png",
     "static/media/skeetshoot.png": "./static/media/skeetshoot.7a69e0dc.png",
     "static/media/spaghyeti-daw.png": "./static/media/spaghyeti-daw.ce7857d5.png",
-    "static/media/spaghyeti-engine.png": "./static/media/spaghyeti-engine.f912232a.png"
+    "static/media/spaghyeti-engine.png": "./static/media/spaghyeti-engine.f912232a.png",
+    "static/media/thepastabilities.png": "./static/media/thepastabilities.15c77d6a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eaf2c1b8.js",
-    "static/js/2.6636feaf.chunk.js",
+    "static/js/2.ba759a44.chunk.js",
     "static/css/main.ead7726b.chunk.css",
-    "static/js/main.f3734e93.chunk.js"
+    "static/js/main.a2aa3bdb.chunk.js"
   ]
 }
