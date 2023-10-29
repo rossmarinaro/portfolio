@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.ead7726b.chunk.css",
-    "main.js": "./static/js/main.a2aa3bdb.chunk.js",
-    "main.js.map": "./static/js/main.a2aa3bdb.chunk.js.map",
+    "main.js": "./static/js/main.dea66b39.chunk.js",
+    "main.js.map": "./static/js/main.dea66b39.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eaf2c1b8.js",
     "runtime-main.js.map": "./static/js/runtime-main.eaf2c1b8.js.map",
-    "static/js/2.ba759a44.chunk.js": "./static/js/2.ba759a44.chunk.js",
-    "static/js/2.ba759a44.chunk.js.map": "./static/js/2.ba759a44.chunk.js.map",
+    "static/js/2.6552501f.chunk.js": "./static/js/2.6552501f.chunk.js",
+    "static/js/2.6552501f.chunk.js.map": "./static/js/2.6552501f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.ec5364e72ac264c00fe3fe5c0e38727a.js": "./precache-manifest.ec5364e72ac264c00fe3fe5c0e38727a.js",
+    "precache-manifest.38b78fd2b6a42ed248a32e6f49e33f8a.js": "./precache-manifest.38b78fd2b6a42ed248a32e6f49e33f8a.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.ead7726b.chunk.css.map": "./static/css/main.ead7726b.chunk.css.map",
     "static/media/1.png": "./static/media/1.7b01625d.png",
@@ -19,6 +19,7 @@
     "static/media/6.png": "./static/media/6.e00b900a.png",
     "static/media/7.png": "./static/media/7.03344fb2.png",
     "static/media/8.png": "./static/media/8.cf26708f.png",
+    "static/media/assassin.png": "./static/media/assassin.597d4125.png",
     "static/media/index.css": "./static/media/spaghetti.2326e509.svg",
     "static/media/bluepoint.png": "./static/media/bluepoint.2abdcefa.png",
     "static/media/bounty hunter.png": "./static/media/bounty hunter.9cdfe71a.png",
@@ -34,6 +35,7 @@
     "static/media/ghoulash.png": "./static/media/ghoulash.dd59e1c6.png",
     "static/media/glutenfree.png": "./static/media/glutenfree.f8fe27d0.png",
     "static/media/icecream.png": "./static/media/icecream.3b26be31.png",
+    "static/media/iscreamcake.png": "./static/media/iscreamcake.f27404fc.png",
     "static/media/juicemafia.png": "./static/media/juicemafia.cccdd55f.png",
     "static/media/karina_alexi.png": "./static/media/karina_alexi.8422f09a.png",
     "static/media/me.png": "./static/media/me.729ded7c.png",
@@ -47,8 +49,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eaf2c1b8.js",
-    "static/js/2.ba759a44.chunk.js",
+    "static/js/2.6552501f.chunk.js",
     "static/css/main.ead7726b.chunk.css",
-    "static/js/main.a2aa3bdb.chunk.js"
+    "static/js/main.dea66b39.chunk.js"
   ]
 }
