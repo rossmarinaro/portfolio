@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.ead7726b.chunk.css",
-    "main.js": "./static/js/main.eb3f9f78.chunk.js",
-    "main.js.map": "./static/js/main.eb3f9f78.chunk.js.map",
+    "main.css": "./static/css/main.efb09f75.chunk.css",
+    "main.js": "./static/js/main.5ab5c515.chunk.js",
+    "main.js.map": "./static/js/main.5ab5c515.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eaf2c1b8.js",
     "runtime-main.js.map": "./static/js/runtime-main.eaf2c1b8.js.map",
-    "static/js/2.d5c98c01.chunk.js": "./static/js/2.d5c98c01.chunk.js",
-    "static/js/2.d5c98c01.chunk.js.map": "./static/js/2.d5c98c01.chunk.js.map",
+    "static/js/2.6552501f.chunk.js": "./static/js/2.6552501f.chunk.js",
+    "static/js/2.6552501f.chunk.js.map": "./static/js/2.6552501f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.20a80334bb0df70d4384915f6ff5eeee.js": "./precache-manifest.20a80334bb0df70d4384915f6ff5eeee.js",
+    "precache-manifest.5163bf2ec2bdbb1d14a7ab145c7fd634.js": "./precache-manifest.5163bf2ec2bdbb1d14a7ab145c7fd634.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.ead7726b.chunk.css.map": "./static/css/main.ead7726b.chunk.css.map",
+    "static/css/main.efb09f75.chunk.css.map": "./static/css/main.efb09f75.chunk.css.map",
     "static/media/1.png": "./static/media/1.617ae92e.png",
     "static/media/2.png": "./static/media/2.ee397d39.png",
     "static/media/3.png": "./static/media/3.6d45ab55.png",
@@ -46,12 +46,13 @@
     "static/media/spaghettiwesterner.png": "./static/media/spaghettiwesterner.e0f12c95.png",
     "static/media/spaghyeti-daw.png": "./static/media/spaghyeti-daw.ce7857d5.png",
     "static/media/spaghyeti-engine.png": "./static/media/spaghyeti-engine.f912232a.png",
-    "static/media/thepastabilities.png": "./static/media/thepastabilities.15c77d6a.png"
+    "static/media/thepastabilities.png": "./static/media/thepastabilities.15c77d6a.png",
+    "static/media/youarewhatyoueat.png": "./static/media/youarewhatyoueat.b1c8f7b9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.eaf2c1b8.js",
-    "static/js/2.d5c98c01.chunk.js",
-    "static/css/main.ead7726b.chunk.css",
-    "static/js/main.eb3f9f78.chunk.js"
+    "static/js/2.6552501f.chunk.js",
+    "static/css/main.efb09f75.chunk.css",
+    "static/js/main.5ab5c515.chunk.js"
   ]
 }
