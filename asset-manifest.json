@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.efb09f75.chunk.css",
-    "main.js": "./static/js/main.f5c57ce8.chunk.js",
-    "main.js.map": "./static/js/main.f5c57ce8.chunk.js.map",
+    "main.css": "./static/css/main.580eaf43.chunk.css",
+    "main.js": "./static/js/main.25a45f5e.chunk.js",
+    "main.js.map": "./static/js/main.25a45f5e.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.eaf2c1b8.js",
     "runtime-main.js.map": "./static/js/runtime-main.eaf2c1b8.js.map",
-    "static/js/2.6552501f.chunk.js": "./static/js/2.6552501f.chunk.js",
-    "static/js/2.6552501f.chunk.js.map": "./static/js/2.6552501f.chunk.js.map",
+    "static/js/2.c77ea10f.chunk.js": "./static/js/2.c77ea10f.chunk.js",
+    "static/js/2.c77ea10f.chunk.js.map": "./static/js/2.c77ea10f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a3d51c00bf878fee29d039457154b227.js": "./precache-manifest.a3d51c00bf878fee29d039457154b227.js",
+    "precache-manifest.ccd1a5684e4c748a0a3d64b242c34e55.js": "./precache-manifest.ccd1a5684e4c748a0a3d64b242c34e55.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.efb09f75.chunk.css.map": "./static/css/main.efb09f75.chunk.css.map",
-    "static/media/1.png": "./static/media/1.617ae92e.png",
-    "static/media/2.png": "./static/media/2.ee397d39.png",
-    "static/media/3.png": "./static/media/3.6d45ab55.png",
+    "static/css/main.580eaf43.chunk.css.map": "./static/css/main.580eaf43.chunk.css.map",
     "static/media/Iscreamcake.png": "./static/media/Iscreamcake.f27404fc.png",
     "static/media/assassin.png": "./static/media/assassin.597d4125.png",
     "static/media/index.css": "./static/media/spaghetti.2326e509.svg",
@@ -24,6 +21,7 @@
     "static/media/bounty hunter3.png": "./static/media/bounty hunter3.5a0b28a5.png",
     "static/media/businesscatsual.png": "./static/media/businesscatsual.8384c8d3.png",
     "static/media/cannabis.png": "./static/media/cannabis.4d83f7aa.png",
+    "static/media/carnevil.png": "./static/media/carnevil.2eb85dd8.png",
     "static/media/carrot.png": "./static/media/carrot.7a317384.png",
     "static/media/cat.png": "./static/media/cat.25bb3f4b.png",
     "static/media/caterpillar.png": "./static/media/caterpillar.e3f9ecdd.png",
@@ -41,6 +39,7 @@
     "static/media/noodles.png": "./static/media/noodles.9793f621.png",
     "static/media/pastaboss.png": "./static/media/pastaboss.7fd82698.png",
     "static/media/randori.png": "./static/media/randori.dbc42e8d.png",
+    "static/media/realityshift.png": "./static/media/realityshift.090f9a7d.png",
     "static/media/skeetshoot.png": "./static/media/skeetshoot.7a69e0dc.png",
     "static/media/spaghetti westerner.png": "./static/media/spaghetti westerner.24b1f0d3.png",
     "static/media/spaghettiwesterner.png": "./static/media/spaghettiwesterner.e0f12c95.png",
@@ -51,8 +50,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.eaf2c1b8.js",
-    "static/js/2.6552501f.chunk.js",
-    "static/css/main.efb09f75.chunk.css",
-    "static/js/main.f5c57ce8.chunk.js"
+    "static/js/2.c77ea10f.chunk.js",
+    "static/css/main.580eaf43.chunk.css",
+    "static/js/main.25a45f5e.chunk.js"
   ]
 }
