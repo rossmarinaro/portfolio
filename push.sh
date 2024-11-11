@@ -1,1 +1,0 @@
-git status && git add . && git commit -am 'generic update' && git push -f origin master      
