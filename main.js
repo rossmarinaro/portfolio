@@ -1,4 +1,3 @@
-
 const cors = require('cors'),
      { app, express, server, port } = require('./express'),
      cookieParser = require('cookie-parser'),
