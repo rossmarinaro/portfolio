@@ -68,8 +68,7 @@ class Database {
     * @param { Object } remove
     */
 
-    persist (add, remove)
-    {
+    persist (add, remove) {
         if (add !== null) 
             this.cluster.insertOne(add);
 
