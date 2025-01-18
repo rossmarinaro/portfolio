@@ -5,7 +5,6 @@ const { app } = require('./express'),
       { Database } = require('./database.js');
 
 
-  
 //------------------------------------------- HEADERS
 
 app.all('/', function(req, res, next) {
