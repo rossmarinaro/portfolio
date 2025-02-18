@@ -1,6 +1,7 @@
 /*** MONGO DB ***/
 
 require('dotenv').config();
+
 const MongoClient = require('mongodb').MongoClient;
 
 class Database {
@@ -14,7 +15,7 @@ class Database {
     * @param { Object[] } collection
     * @returns { Promise<Session> } 
     */
-
+ 
     async connect (collection)
     {
 
