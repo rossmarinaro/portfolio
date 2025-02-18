@@ -1,17 +1,19 @@
-2:"$Sreact.fragment"
-3:I[3255,["173","static/chunks/173-2e74b2ea3587b65e.js","733","static/chunks/733-7c05525fba2c0cb8.js","185","static/chunks/app/layout-2eb3d3b6076a89c6.js"],"default",1]
-4:I[8173,["173","static/chunks/173-2e74b2ea3587b65e.js","733","static/chunks/733-7c05525fba2c0cb8.js","185","static/chunks/app/layout-2eb3d3b6076a89c6.js"],"Image"]
-5:I[9514,["173","static/chunks/173-2e74b2ea3587b65e.js","733","static/chunks/733-7c05525fba2c0cb8.js","185","static/chunks/app/layout-2eb3d3b6076a89c6.js"],"default",1]
-6:I[9275,[],""]
-7:I[1343,[],""]
-d:I[6513,[],"ClientPageRoot"]
-e:I[547,["173","static/chunks/173-2e74b2ea3587b65e.js","521","static/chunks/app/artwork/page-f83930e9bb68d838.js"],"default",1]
-11:I[3120,[],"OutletBoundary"]
-13:I[3120,[],"MetadataBoundary"]
-15:I[3120,[],"ViewportBoundary"]
-17:I[6130,[],""]
-1:HL["/_next/static/css/a7d6a5e7eaf7ea49.css","style"]
-8:Tc806,
+3:"$Sreact.fragment"
+4:I[3255,["173","static/chunks/173-f0d28bf08e4ff872.js","138","static/chunks/138-6855c6b7b9b80034.js","185","static/chunks/app/layout-4d3ffaa827e8e49b.js"],"default",1]
+5:I[8173,["173","static/chunks/173-f0d28bf08e4ff872.js","138","static/chunks/138-6855c6b7b9b80034.js","185","static/chunks/app/layout-4d3ffaa827e8e49b.js"],"Image"]
+6:I[9666,["173","static/chunks/173-f0d28bf08e4ff872.js","138","static/chunks/138-6855c6b7b9b80034.js","185","static/chunks/app/layout-4d3ffaa827e8e49b.js"],"default",1]
+7:I[9275,[],""]
+8:I[1343,[],""]
+e:I[207,["173","static/chunks/173-f0d28bf08e4ff872.js","138","static/chunks/138-6855c6b7b9b80034.js","185","static/chunks/app/layout-4d3ffaa827e8e49b.js"],"default",1]
+f:I[6513,[],"ClientPageRoot"]
+10:I[2715,["173","static/chunks/173-f0d28bf08e4ff872.js","521","static/chunks/app/artwork/page-14e833cb688fbd98.js"],"default",1]
+13:I[3120,[],"OutletBoundary"]
+15:I[3120,[],"MetadataBoundary"]
+17:I[3120,[],"ViewportBoundary"]
+19:I[6130,[],""]
+1:HL["/portfolio/_next/static/css/56fd737178a6915b.css","style"]
+2:HL["/portfolio/_next/static/css/b54a210b0756ce34.css","style"]
+9:Tc806,
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enable-background="new 0 0 48.226 48.225" xml:space="preserve">
@@ -526,7 +528,7 @@ e:I[547,["173","static/chunks/173-2e74b2ea3587b65e.js","521","static/chunks/app/
 </g>
 </svg>
 
-9:Tc80d,
+a:Tc80d,
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enable-background="new 0 0 48.226 48.225" xml:space="preserve">
@@ -1041,7 +1043,7 @@ e:I[547,["173","static/chunks/173-2e74b2ea3587b65e.js","521","static/chunks/app/
 </g>
 </svg>
 
-a:Tc819,
+b:Tc819,
 
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enable-background="new 0 0 48.226 48.225" xml:space="preserve">
@@ -1556,7 +1558,7 @@ a:Tc819,
 </g>
 </svg>
 
-b:T9b5,
+c:T9b5,
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -1586,7 +1588,7 @@ b:T9b5,
 </g>
 </svg>
 
-c:T5a7,
+d:T5a7,
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
@@ -1605,9 +1607,9 @@ c:T5a7,
 		C28.376,29.766,29.456,31.823,30.382,33.523z"/>
 </g>
 </svg>
-0:{"P":null,"b":"imWZq3_9I5dy3MeH9OOEW","p":"","c":["","artwork"],"i":false,"f":[[["",{"children":["artwork",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$2","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/a7d6a5e7eaf7ea49.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_d65c78","children":[null,["$","$L3",null,{"children":["$","body",null,{"className":"flex min-h-screen flex-col items-center p-08","children":[["$","div",null,{"id":"overlay"}],["$","$L4",null,{"loading":"lazy","width":150,"height":250,"className":"card-img-top item-image","src":{"src":"/_next/static/media/me.4ae35e19.png","height":1203,"width":1239,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAbFBMVEVBQD6hoZySYkwnHxs1PD6neFoSHCFMaXFNQTo9TE8ZJywvQEUyQkZZPTKQXEWXe2yndVGthm6vs7P///+ZmZegfWYhLzYAAAAnJyp1WkcgKC0/TE6ZblQQERN4Uz80RUovODtqgoxqamk9LiWvgFetAAAAG3RSTlMv/P78r/3rAPzlLbX56Sz5sqn+MOzh/f6p4a+NbclWAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEZJREFUeJwFwQUCwCAMBLBDC8xdWpj9/49LQKiC61sC4hWKNIDlOpTODYg3s2hZEA0/r3YHbFbjar4dmFXesk+gyXp/JvoBg4gDvY26i14AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8},"alt":"apparel image"}],["$","h1",null,{"className":"heading-style digitizer","children":["$","span",null,{"children":"Ross Marinaro Portfolio"}]}],["$","$L5",null,{}],["$","br",null,{}],["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],["$","div",null,{"id":"footer","className":"digitizer","children":["$","footer",null,{"style":{"color":"#000","textShadow":"0.1em 0.1em 0.1em #6B9AF9"},"children":[["$","p",null,{"style":{"marginLeft":"35%"},"children":["$","a",null,{"href":"mailto:remaremyinitials@gmail.com","style":{"listStyleType":"none","textDecoration":"transparent"},"children":"Contact"}]}],["$","br",null,{}],["$","h3",null,{"children":"PASTABOSS ENTERPRISE © 2025"}],["$","br",null,{}],["$","div",null,{"id":"social-media-icons","children":[["$","a",null,{"href":"https://github.com/rossmarinaro","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:6:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$8"}}]}],["$","a",null,{"href":"https://instagram.com/pastaboss/","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:6:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$9"}}]}],["$","a",null,{"href":"https://www.linkedin.com/in/ross-marinaro-81700336","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:6:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$a"}}]}],["$","a",null,{"href":"https://pastaboss.itch.io","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:6:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$b"}}]}],["$","a",null,{"href":"https://rossmarinaro.artstation.com/","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:props:children:6:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$c"}}]}]]}]]}]}]]}]}]]}]]}],{"children":["artwork",["$","$2","c",{"children":[null,["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","artwork","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L7",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$2","c",{"children":[["$","$Ld",null,{"Component":"$e","searchParams":{},"params":{},"promises":["$@f","$@10"]}],null,["$","$L11",null,{"children":"$L12"}]]}],{},null]},null]},null],["$","$2","h",{"children":[null,["$","$2","api2NuUcDVB14UFyhtDZL",{"children":[["$","$L13",null,{"children":"$L14"}],["$","$L15",null,{"children":"$L16"}],null]}]]}]]],"m":"$undefined","G":"$17","s":false,"S":true}
-f:{}
-10:{}
-16:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-14:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Ross Marinaro Portfolio"}],["$","meta","2",{"name":"description","content":"Personal Artist Portfolio"}],["$","link","3",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"256x248"}]]
-12:null
+0:{"P":null,"b":"xsXwkYRt-nsgdWWFuNwGo","p":"/portfolio","c":["","artwork"],"i":false,"f":[[["",{"children":["artwork",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$3","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/portfolio/_next/static/css/56fd737178a6915b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/portfolio/_next/static/css/b54a210b0756ce34.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"__className_38a7f8","children":[null,["$","$L4",null,{"children":[["$","body",null,{"className":"flex min-h-screen flex-col items-center p-08","children":[["$","$L5",null,{"loading":"eager","width":150,"height":250,"src":{"src":"/portfolio/_next/static/media/me.4ae35e19.png","height":1203,"width":1239,"blurDataURL":"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAMAAADz0U65AAAAbFBMVEVBQD6hoZySYkwnHxs1PD6neFoSHCFMaXFNQTo9TE8ZJywvQEUyQkZZPTKQXEWXe2yndVGthm6vs7P///+ZmZegfWYhLzYAAAAnJyp1WkcgKC0/TE6ZblQQERN4Uz80RUovODtqgoxqamk9LiWvgFetAAAAG3RSTlMv/P78r/3rAPzlLbX56Sz5sqn+MOzh/f6p4a+NbclWAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEZJREFUeJwFwQUCwCAMBLBDC8xdWpj9/49LQKiC61sC4hWKNIDlOpTODYg3s2hZEA0/r3YHbFbjar4dmFXesk+gyXp/JvoBg4gDvY26i14AAAAASUVORK5CYII=","blurWidth":8,"blurHeight":8},"alt":"main image"}],["$","h1",null,{"className":"heading-style digitizer rounded-xl p-2","style":{"backdropFilter":"blur(5px)","border":"0.2em solid black"},"children":"Ross Marinaro Portfolio"}],["$","$L6",null,{}],["$","br",null,{}],["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],["$","div",null,{"id":"footer","className":"digitizer rounded-xl p-5","style":{"backdropFilter":"blur(5px)","border":"0.25em solid black"},"children":["$","footer",null,{"style":{"color":"#000","textShadow":"0.1em 0.1em 0.1em #6B9AF9"},"children":[["$","p",null,{"style":{"paddingLeft":"35%"},"children":["$","a",null,{"href":"mailto:remaremyinitials@gmail.com","style":{"listStyleType":"none","textDecoration":"transparent"},"children":"Contact"}]}],["$","br",null,{}],["$","h3",null,{"children":"PASTABOSS ENTERPRISE © 2025"}],["$","br",null,{}],["$","div",null,{"id":"social-media-icons","children":[["$","a",null,{"href":"https://github.com/rossmarinaro","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:0:props:children:5:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$9"}}]}],["$","a",null,{"href":"https://instagram.com/pastaboss/","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:0:props:children:5:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$a"}}]}],["$","a",null,{"href":"https://www.linkedin.com/in/ross-marinaro-81700336","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:0:props:children:5:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$b"}}]}],["$","a",null,{"href":"https://pastaboss.itch.io","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:0:props:children:5:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$c"}}]}],["$","a",null,{"href":"https://rossmarinaro.artstation.com/","style":"$0:f:0:1:1:props:children:1:props:children:1:props:children:0:props:children:5:props:children:props:children:0:props:children:props:style","children":["$","div",null,{"className":"social-media-icon","contentEditable":"false","dangerouslySetInnerHTML":{"__html":"$d"}}]}]]}]]}]}]]}],["$","$Le",null,{}]]}]]}]]}],{"children":["artwork",["$","$3","c",{"children":[null,["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","artwork","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]]}],{"children":["__PAGE__",["$","$3","c",{"children":[["$","$Lf",null,{"Component":"$10","searchParams":{},"params":{},"promises":["$@11","$@12"]}],null,["$","$L13",null,{"children":"$L14"}]]}],{},null]},null]},null],["$","$3","h",{"children":[null,["$","$3","8A7TxeCulKVL5Zr4BgLl1",{"children":[["$","$L15",null,{"children":"$L16"}],["$","$L17",null,{"children":"$L18"}],null]}]]}]]],"m":"$undefined","G":"$19","s":false,"S":true}
+11:{}
+12:{}
+18:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+16:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Ross Marinaro Portfolio"}],["$","meta","2",{"name":"description","content":"Personal Artist Portfolio"}],["$","link","3",{"rel":"icon","href":"/portfolio/favicon.ico","type":"image/x-icon","sizes":"256x248"}]]
+14:null
