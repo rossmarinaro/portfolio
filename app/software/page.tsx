@@ -14,7 +14,7 @@ import { useState, useRef, ChangeEvent } from 'react'
 export default function Software()
 {
   
-    const [ state, setState ] = useState('software'),
+    const [ state, setState ] = useState('games'),
 
     artType = useRef<HTMLSelectElement | null>(null),
 
@@ -49,8 +49,8 @@ export default function Software()
             
             <select className='ml-[50%]' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
 
-                <option value="software">software</option>
                 <option value="games">games</option>
+                <option value="software">software</option>
 
             </select>
 

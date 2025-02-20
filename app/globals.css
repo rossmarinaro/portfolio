@@ -4,11 +4,6 @@
 
 
 @font-face {
-    font-family: 'bangers';
-    src: local('bangers'), url('../public/fonts/bangers.woff') format('woff')
-}
-
-@font-face {
     font-family: 'digitizer';
     src: local('digitizer'), url('../public/fonts/digitizer.woff') format('woff');
 }
@@ -45,10 +40,6 @@ a:hover {
 
 .digitizer {
     font-family: 'digitizer', sans-serif;
-}
-
-.bangers {
-    font-family: 'bangers', sans-serif;
 }
 
 .gallery>ul {
@@ -190,8 +181,8 @@ div > p, table {
 
 .nav-link {
     z-index: 3;
-    color: #8026ff;
-    text-shadow: 0.08em 0.08em black;
+    color: #00ff0d;
+    -webkit-text-stroke: 1px black;
 }
 
 .nav-link:hover {
@@ -277,7 +268,7 @@ div > p, table {
     }
 
     .nav-link > li {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     .container {

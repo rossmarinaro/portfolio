@@ -35,12 +35,12 @@ export default function Navigation()
                     <span></span>
                 </div>
 
-                <h1 className="text-sm md:ml-[40%] max-lg:ml-[50%] max-sm:ml-[10%] mt-[20px] heading-style digitizer" style={{ backdropFilter: 'blur(5px)', border: '0.2em solid black' }}>Ross Marinaro Portfolio</h1>
+                <h1 className="md:ml-[40%] max-lg:ml-[50%] max-sm:ml-[10%] mt-[20px] heading-style digitizer" style={{ backdropFilter: 'blur(5px)', border: '0.2em solid black' }}>Ross Marinaro Portfolio</h1>
 
             </nav>
                         
             {
-                navOpen && <ul id="main-nav" className={ `bangers nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#00ff4c]'}` } style={{ border: '0.2em solid black' }}>
+                navOpen && <ul id="main-nav" className={ `digitizer nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#6a00ff]'}` } style={{ border: '0.2em solid #00ff4c' }}>
 
                     <Link className="nav-link" href="/"><li>Home</li></Link>
                     <Link className="nav-link" href="/blogs"><li>Blogs</li></Link>
