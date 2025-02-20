@@ -14,7 +14,7 @@ export default function Footer()
 
     return (   
 
-        <footer className="content-container col-2-2 container digitizer rounded-xl p-5" style={{ backdropFilter: 'blur(5px)', border: '0.25em solid black', color: '#000', textShadow: '0.1em 0.1em 0.1em #6B9AF9' }}>
+        <footer className="heading-style content-container col-2-2 container digitizer rounded-xl p-5" style={{ backdropFilter: 'blur(5px)', border: '0.25em solid black' }}>
 
             <a className="lg:ml-[45%] md:ml-[40%] max-sm:ml-[25%]" href="mailto:remaremyinitials@gmail.com" style={ anchor }>Contact</a>
 
@@ -24,7 +24,7 @@ export default function Footer()
 
                 <a href="https://github.com/rossmarinaro" style={ anchor }><LogoGitHub /></a>    
                 <a href="https://instagram.com/pastaboss/" style={ anchor }><IGLogo /></a>
-                <a href="https://www.linkedin.com/in/ross-marinaro-81700336"style={ anchor }><LinkedInLogo /></a>
+                <a href="https://www.linkedin.com/in/ross-marinaro-81700336" style={ anchor }><LinkedInLogo /></a>
                 <a href="https://pastaboss.itch.io" style={ anchor }><ItchIO /></a>
                 <a href="https://rossmarinaro.artstation.com/" style={ anchor }><ArtStationLogo /></a>
 

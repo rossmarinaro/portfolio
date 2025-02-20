@@ -2,7 +2,7 @@ export default function ItchIO () {
     return (
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
         width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enableBackground="new 0 0 48.226 48.225">
-            <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.113" r="21.496"/>
+            <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.113" r="21.496"/>
             <g>
                 <g>
                     <path fillRule="evenodd" clipRule="evenodd" d="M32.395,17.388c-0.106,3.251-5.675,3.459-5.715,0

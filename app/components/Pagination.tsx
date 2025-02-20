@@ -94,7 +94,7 @@ export const Pagination = (props: any) => {
 
         <div id="pagination">
 
-            <ul className={ `flex pagination-container-${className} mt-5 pl-[50%] w-full bg-white rounded-xl`}>
+            <ul className={ `flex pagination-container-${className} mt-5 pl-[50%] w-full bg-[#00ff4c] rounded-xl`}>
                 
                 <li className={ currentPage === 1 ? 'pagination-item' : 'pagination-item' } onClick={ onPrevious }>
 

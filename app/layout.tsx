@@ -42,9 +42,9 @@ export default function RootLayout({ children }: { children: React.ReactNode })
 
             <Navigation />
        
-            <Image loading="eager" width={ 150 } height={ 250 } src={ portrait } alt="main image" className="ml-[47%] max-sm:ml-[40%]"/>
+            <Image loading="eager" width={ 250 } height={ 250 } src={ portrait } alt="main image" className="ml-[42%] mt-[2%] max-sm:hidden" />
 
-            <div className="w-[80%] flex flex-col items-center mt-5 pl-[20%]">
+            <div className="lg:w-[60%] flex flex-col flex-wrap items-center mt-5 lg:ml-[20%]">
                 { children }           
                 <Footer />
             </div>

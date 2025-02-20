@@ -40,7 +40,7 @@ export default function Navigation()
             </nav>
                         
             {
-                navOpen && <ul id="main-nav" className={ `bangers nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-black'}` }>
+                navOpen && <ul id="main-nav" className={ `bangers nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#00ff4c]'}` } style={{ border: '0.2em solid black' }}>
 
                     <Link className="nav-link" href="/"><li>Home</li></Link>
                     <Link className="nav-link" href="/blogs"><li>Blogs</li></Link>

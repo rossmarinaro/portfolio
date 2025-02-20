@@ -2,11 +2,11 @@ export default function LogoGitHub() {
     return (
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
 	     width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enableBackground="new 0 0 48.226 48.225">
-        <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.257" r="21.496"/>
-        <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="98.865" r="21.496"/>
-        <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="94.113" cy="24.142" r="21.496"/>
-        <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="-76.757" cy="24.257" r="21.496"/>
-        <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="-37.205" r="21.496"/>
+        <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.257" r="21.496"/>
+        <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="98.865" r="21.496"/>
+        <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="94.113" cy="24.142" r="21.496"/>
+        <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="-76.757" cy="24.257" r="21.496"/>
+        <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="-37.205" r="21.496"/>
         <g>
             <path fillRule="evenodd" clipRule="evenodd" d="M361.748-536.217c606.313,0,1212.69,0,1819,0
                 c-0.667,404.319,1.333,811.352-1,1214c-606.313,0-1212.69,0-1819,0c0-403.666,0-807.336,0-1211

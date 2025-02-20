@@ -24,36 +24,28 @@ export default function Artwork()
             case 'digital':
 
                 return (  
-
-                    <div className="component">
-                        <figure className="gallery rounded-xl ml-[5%] pt-[2%]">
+                    <figure className="rounded-xl ml-[5%] mb-[5%] pt-[2%]">
                         <Carousel arr={ digital } />
-                        </figure>
-                    </div>
+                    </figure>
                 );
                    
             case 'penink':
 
                 return (  
-
-                    <div className="component">
-                        <figure className="gallery rounded-xl ml-[5%] pt-[2%]">
-                            <ul> 
-                                <li className="image-gallery-link vector"><a href={ drawing1.src } target='_blank' rel="noopener noreferrer"><Image src={ drawing1.src } width={ 488 } height={ 488 } alt="vector illustration"/></a></li> 
-                                <li className="image-gallery-link vector"><a href={ drawing2.src } target='_blank' rel="noopener noreferrer"><Image src={ drawing2.src } width={ 488 } height={ 488 } alt="vector illustration"/></a></li> 
-                            </ul>
-                        </figure>
-                    </div>
+                    <figure className="gallery rounded-xl ml-[5%] mb-[5%] pt-[2%]">
+                        <ul> 
+                            <li className="image-gallery-link vector"><a href={ drawing1.src } target='_blank' rel="noopener noreferrer"><Image src={ drawing1.src } width={ 488 } height={ 488 } alt="vector illustration"/></a></li> 
+                            <li className="image-gallery-link vector"><a href={ drawing2.src } target='_blank' rel="noopener noreferrer"><Image src={ drawing2.src } width={ 488 } height={ 488 } alt="vector illustration"/></a></li> 
+                        </ul>
+                    </figure>
                 );
 
             case 'AI':
 
                 return (       
-                    <div className="component">
-                        <figure className="gallery rounded-xl ml-[5%] pt-[2%]">        
-                            <Carousel arr={ AI } />
-                        </figure>
-                    </div>
+                    <figure className="gallery rounded-xl ml-[5%] mb-[5%] pt-[2%]">        
+                        <Carousel arr={ AI } />
+                    </figure>
                 );
         }
 
@@ -62,14 +54,14 @@ export default function Artwork()
     return ( 
         <section>
 
-            <select className='ml-[50%]' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
+            <select style={{ border: '0.2em solid black' }} className='text-black bg-[#00ff4c] p-2 ml-[45%] max-sm:ml-[35%] mb-[5%] rounded-xl' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
                 <option value="digital">digital</option>
                 <option value="penink">pen & ink</option>
                 <option value="AI">AI</option>
             </select> 
 
             { component(state) }
-
+ 
         </section>
     )   
 }

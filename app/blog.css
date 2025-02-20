@@ -14,7 +14,6 @@ tr:hover{
 #pagination ul {
   display: flex;
   padding-left: 20%;
-  /* margin-left: 120%; */
   margin-bottom:  10%;
 }
 #pagination li {
@@ -27,7 +26,7 @@ tr:hover{
   background-color: #c1c1c1;
   border: 0.2em solid #000;
   margin: auto;
-  width: 80%;
+  width: 100%;
 }
 
 .pagination-container {

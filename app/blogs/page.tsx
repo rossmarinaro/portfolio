@@ -45,37 +45,39 @@ export default function Blogs()
 
     return (
  
-        <section>
+        <section className="mt-[5%] mb-[10%] w-full">
 
             <table className="blog-table">
-                <thead >
+                <thead>
                     <tr>
                         <th>Username</th> 
                         <th>Title</th> 
                         <th>Date</th>
                     </tr>
                 </thead>
-            <tbody>
+                <tbody>
 
-            {   
-                currentTableData.length ?
-                    currentTableData.map((item: any) => (
-        
-                        <tr key={ item._id } onClick={() => {
-                            setBlog(item);
-                            setView(view === 'blog' ? 'list' : 'blog');
-                        }}>
-                            { item.username && <td>{ item.username }</td> }
-                            { item.title && <td>{ item.title }</td> }
-                            { item.date && <td>{ item.date }</td> }
-                        </tr>
+                {   
+                    currentTableData.length ?
+                        currentTableData.map((item: any) => (
             
-                    )
-                ) : 
-                <th className="mb-2 text-1xl font-semibold" style={{ marginLeft: '100%' }}> N/A </th> 
-            }
+                            <tr key={ item._id } onClick={() => {
+                                setBlog(item);
+                                setView(view === 'blog' ? 'list' : 'blog');
+                            }}>
+                                { item.username && <td>{ item.username }</td> }
+                                { item.title && <td>{ item.title }</td> }
+                                { item.date && <td>{ item.date }</td> }
+                            </tr>
+                
+                        )
+                    ) : 
+                    <tr>
+                        <td className="mb-2 text-1xl font-semibold" style={{ marginLeft: '100%' }}> N/A </td> 
+                    </tr>
+                }
 
-            </tbody>
+                </tbody>
 
             </table>
 

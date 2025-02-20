@@ -2,7 +2,7 @@ export default function ArtStationLogo() {
     return (
         <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
             width="48.226px" height="48.225px" viewBox="0 0 48.226 48.225" enableBackground="new 0 0 48.226 48.225">
-            <circle fill="#6B9AF9" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.113" r="21.496"/>
+            <circle fill="#00ff4c" stroke="#000000" strokeWidth="4" strokeMiterlimit="10" cx="24.243" cy="24.113" r="21.496"/>
             <g>
                 <path fillRule="evenodd" clipRule="evenodd" d="M34.909,33.464c-4.592-7.833-9.06-15.792-13.641-23.637
                     c-0.011-0.05,0.023-0.056,0.059-0.059c1.995,0.141,5.173-0.438,6.409,0.647c0.519,0.456,0.857,1.349,1.293,2.117
