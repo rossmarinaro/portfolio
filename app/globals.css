@@ -279,8 +279,8 @@ div > p, table {
         display: block;
     }   
     
-    .wrapper-container > div > iframe{
-        padding-top: 3%;
+    .wrapper-container > div{
+        margin-top: 3%;
     }  
 
     ul {

@@ -18,7 +18,7 @@ export default function Software()
 
     artType = useRef<HTMLSelectElement | null>(null),
 
-    component = (softwareType: string) => {
+    component = (softwareType: string) => { 
 
         if (softwareType === 'software')
             return (
@@ -47,7 +47,7 @@ export default function Software()
         
         <section>
             
-            <select className='ml-[50%]' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
+            <select style={{ border: '0.2em solid black' }} className='text-black bg-[#00ff4c] p-2 ml-[45%] max-sm:ml-[35%] mb-[5%] rounded-xl' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
 
                 <option value="games">games</option>
                 <option value="software">software</option>
