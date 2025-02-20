@@ -272,7 +272,6 @@ div > p, table {
 
 @media (orientation: portrait) 
 {
-
     .component>div {
         border: 0.2em solid #000;
     }
@@ -298,7 +297,6 @@ div > p, table {
         grid-template-columns: repeat(4, 1fr);
         padding-left: 5%;
     }
- 
   
 }
 
@@ -306,7 +304,6 @@ div > p, table {
 
 @media (orientation: landscape) 
 {
-
     .component > div {
         border: 0.25em solid #000;
     }
@@ -319,7 +316,7 @@ div > p, table {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 3%;
     }   
- 
+
     ul {
          display: flex; 
         justify-content: center; 
