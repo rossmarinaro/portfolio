@@ -6,7 +6,8 @@ import ArtStationLogo from './svg-logos/artstation-logo'
 
 const anchor = {
   listStyleType: 'none',
-  textDecoration: 'transparent'
+  textDecoration: 'transparent',
+  paddingTop: '15%'
 }
  
 export default function Footer()
@@ -16,9 +17,9 @@ export default function Footer()
 
         <footer className="heading-style content-container col-2-2 container digitizer rounded-xl p-5" style={{ backdropFilter: 'blur(5px)', border: '0.25em solid black' }}>
 
-            <a className="lg:ml-[45%] md:ml-[40%] max-sm:ml-[25%]" href="mailto:remaremyinitials@gmail.com" style={ anchor }>Contact</a>
+            <a className="lg:ml-[45%] ml-[40%]" href="mailto:remaremyinitials@gmail.com" style={ anchor }>Contact</a>
 
-            <h3 className="lg:ml-[35%] md:ml-[20%] max-sm:ml-[25%] mt-[3%] mb-[3%]">PASTABOSS ENTERPRISE &copy; 2025</h3>
+            <h3 className="lg:ml-[35%] md:ml-[20%] max-sm:ml-[10%] mt-[3%] mb-[3%]">PASTABOSS ENTERPRISE &copy; 2025</h3>
 
             <div className="flex max-sm:grid max-sm:grid-cols-3 justify-center" >
 

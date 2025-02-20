@@ -37,11 +37,11 @@ export default function RootLayout({ children }: { children: React.ReactNode })
       </Head>
 
       <AppStore>
-
+ 
         <body>    
 
             <Navigation />
-       
+         
             <Image loading="eager" width={ 250 } height={ 250 } src={ portrait } alt="main image" className="ml-[42%] mt-[2%] max-sm:hidden" />
 
             <div className="lg:w-[60%] flex flex-col flex-wrap items-center mt-5 lg:ml-[20%]">
