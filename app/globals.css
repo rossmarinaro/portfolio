@@ -47,7 +47,6 @@ a:hover {
 }
 
 .gallery img {
-    width: 75%;
     object-fit: cover;
     background-color: #000;
 }
@@ -102,7 +101,6 @@ div > p, table {
 }
 
 .spaghyeti-software {
-    width: 30%;
     border: 0.2em solid #000;
 }
 
@@ -129,41 +127,14 @@ div > p, table {
     font-size: 1em;
 }
 
-
-.game-container ul>li>a>img {
-    border: 0.2em solid #000;
-    flex: auto;
-
-}
-
-.game-container ul>li>a>img:hover {
-    border: 0.2em solid #e0e0e2;
-}
-
-.game-container {
-
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-    column-gap: 3%;
-
-}
-
 ::selection {
     color: none;
     background: none;
 }
 
-figcaption {
-    color: #000;
-    font-weight: 2em;
-    text-shadow: 0.08em 0.08em #8AAAB9;
-}
-
 div > p, table {
     font-family: 'Tahoma' sans-serif;
 }
-
 
 .heading-style {
     color: #00ff0d;
@@ -286,7 +257,7 @@ div > p, table {
     ul {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        padding-left: 5%;
+        padding-left: 4%;
     }
   
 }
@@ -303,13 +274,12 @@ div > p, table {
     }
 
     .wrapper-container {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 3%;
+        display: flex;
+        justify-content: center;
     }   
 
     ul {
-         display: flex; 
+        display: flex; 
         justify-content: center; 
     }
 }

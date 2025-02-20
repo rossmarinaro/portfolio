@@ -22,22 +22,22 @@ export default function Software()
 
         if (softwareType === 'software')
             return (
-                <div style={{ marginLeft: '20%' }} className="gallery wrapper-container">
+                <div className="max-sm:ml-[10%] gallery wrapper-container">
 
-                    <div><a href="https://github.com/rossmarinaro/spaghyeti_source-engine"><Image className="spaghyeti-software" src={ spaghyetiEngine } alt="thumbnail link"/></a></div>
-                    <div><a href="https://rossmarinaro.github.io/spaghyeti-daw/dist"><Image className="spaghyeti-software" src={ spaghyetiDAW } alt="thumbnail link"/></a></div>
+                    <a href="https://github.com/rossmarinaro/spaghyeti_source-engine"><Image className="spaghyeti-software" src={ spaghyetiEngine } alt="thumbnail link"/></a>
+                    <a href="https://rossmarinaro.github.io/spaghyeti-daw/dist"><Image className="spaghyeti-software" src={ spaghyetiDAW } alt="thumbnail link"/></a>
 
                 </div>
             )
 
         else if (softwareType === 'games')
             return (
-                <div className="gallery wrapper-container">  
+                <div className="max-sm:ml-[10%] gallery wrapper-container">  
              
-                    <div><a href="https://pastaboss.onrender.com"><Image className="spaghyeti-software" src={ meatBallin } alt="video game thumbnail"/></a></div>
-                    <div><a href="https://pastaboss.itch.io/randori"><Image className="spaghyeti-software" src={ demo } alt="video game thumbnail"/></a></div>
-                    <div><a href="https://pastaboss.itch.io/meatball-skeetshoot"><Image className="spaghyeti-software" src={ pinball } alt="video game thumbnail"/></a></div>
-                    <div><a href="https://rossmarinaro.github.io/bluepoint"><Image className="spaghyeti-software" src={ swankyVelvet } alt="video game thumbnail"/></a></div>
+                    <a href="https://pastaboss.onrender.com"><Image className="spaghyeti-software" src={ meatBallin } alt="video game thumbnail"/></a>
+                    <a href="https://pastaboss.itch.io/randori"><Image className="spaghyeti-software" src={ demo } alt="video game thumbnail"/></a>
+                    <a href="https://pastaboss.itch.io/meatball-skeetshoot"><Image className="spaghyeti-software" src={ pinball } alt="video game thumbnail"/></a>
+                    <a href="https://rossmarinaro.github.io/bluepoint"><Image className="spaghyeti-software" src={ swankyVelvet } alt="video game thumbnail"/></a>
                   
                 </div>
             )
@@ -45,9 +45,9 @@ export default function Software()
 
     return ( 
         
-        <section>
+        <section className="w-full">
             
-            <select style={{ border: '0.2em solid black' }} className='text-black bg-[#00ff4c] p-2 ml-[45%] max-sm:ml-[35%] mb-[5%] rounded-xl' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
+            <select style={{ border: '0.2em solid black' }} className='w-full text-black bg-[#00ff4c] p-2 pl-[45%] max-sm:pl-[40%] mb-[5%] rounded-xl' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
 
                 <option value="games">games</option>
                 <option value="software">software</option>

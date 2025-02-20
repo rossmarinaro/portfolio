@@ -40,7 +40,7 @@ export default function Navigation()
             </nav>
                         
             {
-                navOpen && <ul id="main-nav" className={ `digitizer nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#6a00ff]'}` } style={{ border: '0.1em solid #00ff4c' }}>
+                navOpen && <ul id="main-nav" className={ `digitizer nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#6a00ff]'}` } style={{ border: '0.2em solid #00ff4c' }}>
 
                     <Link className="nav-link" href="/"><li>Home</li></Link>
                     <Link className="nav-link" href="/blogs"><li>Blogs</li></Link>
