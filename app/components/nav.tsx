@@ -49,7 +49,7 @@ export default function Navigation()
                     <Link onClick={ () => toggleNav(false) } className="nav-link" href="/animation"><li>Animation</li></Link>
                     <Link onClick={ () => toggleNav(false) } className="nav-link" href="/books"><li>Books</li></Link>
                     <Link onClick={ () => toggleNav(false) } className="nav-link" href="/software"><li>Games</li></Link>
-                    <Link onClick={ goToStore } className=" max-sm:pb-[50%] nav-link" href=""><li>Store</li></Link>
+                    <Link onClick={ goToStore } className=" max-sm:pb-[100%] nav-link" href=""><li>Store</li></Link>
 
                 </ul> 
             }

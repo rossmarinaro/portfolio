@@ -59,7 +59,7 @@ div > p, table {
 
 
 
-.social-media-icon>svg:hover {
+.social-media-icon > svg:hover {
     fill: #7125ff;
 }
 
@@ -89,8 +89,8 @@ div > p, table {
     border: 0.2em solid #7125ff;
 }
 
-.content-containe r> p {
-    color: #7125ff;
+.content-container > p {
+    color: #fff;
     text-shadow: 0.1em 0.1em 0.1em #000;
 }
 
