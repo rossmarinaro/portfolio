@@ -22,7 +22,7 @@ export default function Software()
 
         if (softwareType === 'software')
             return (
-                <div className="max-sm:ml-[10%] gallery wrapper-container">
+                <div className="wrapper-container">
 
                     <a href="https://github.com/rossmarinaro/spaghyeti_source-engine"><Image className="spaghyeti-software" src={ spaghyetiEngine } alt="thumbnail link"/></a>
                     <a href="https://rossmarinaro.github.io/spaghyeti-daw/dist"><Image className="spaghyeti-software" src={ spaghyetiDAW } alt="thumbnail link"/></a>
@@ -32,7 +32,7 @@ export default function Software()
 
         else if (softwareType === 'games')
             return (
-                <div className="max-sm:ml-[10%] gallery wrapper-container">  
+                <div className="wrapper-container">  
              
                     <a href="https://pastaboss.onrender.com"><Image className="spaghyeti-software" src={ meatBallin } alt="video game thumbnail"/></a>
                     <a href="https://pastaboss.itch.io/randori"><Image className="spaghyeti-software" src={ demo } alt="video game thumbnail"/></a>
@@ -45,7 +45,7 @@ export default function Software()
 
     return ( 
         
-        <section className="w-full">
+        <section>
             
             <select style={{ border: '0.2em solid black' }} className='w-full text-black bg-[#00ff4c] p-2 pl-[45%] max-sm:pl-[40%] mb-[5%] rounded-xl' name="art-type" ref={ artType } onChange={ async (e: ChangeEvent<HTMLSelectElement>): Promise<void> => setState(e.target.value) } required>
 
