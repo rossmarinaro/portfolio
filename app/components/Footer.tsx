@@ -6,7 +6,8 @@ import ArtStationLogo from './svg-logos/artstation-logo'
 
 const anchor = {
   listStyleType: 'none',
-  textDecoration: 'transparent'
+  textDecoration: 'transparent',
+  paddingTop: '5%'
 }
  
 export default function Footer()
@@ -20,7 +21,7 @@ export default function Footer()
 
             <h3 className="w-full lg:pl-[35%] md:pl-[20%] max-sm:pl-[10%] mt-[3%] mb-[3%]">PASTABOSS ENTERPRISE &copy; 2025</h3>
 
-            <div className="flex max-sm:grid max-sm:grid-cols-3 justify-center" >
+            <div className="flex max-sm:grid max-sm:grid-cols-3 max-sm:ml-[10%] justify-center" >
 
                 <a href="https://github.com/rossmarinaro" style={ anchor }><LogoGitHub /></a>    
                 <a href="https://instagram.com/pastaboss/" style={ anchor }><IGLogo /></a>

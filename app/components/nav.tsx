@@ -23,8 +23,9 @@ export default function Navigation()
 
     return (
 
-        <>
-            <nav className={`w-full flex h-[65px] bg-black`}>
+        <div className='fixed top-0 w-full'>
+
+            <nav className={`w-full flex bg-black`}>
 
                 <div className={`relative icon nav-icon h-[60px] w-[60px] rounded-xl`} onClick={e => {
                     e.preventDefault();
@@ -40,20 +41,20 @@ export default function Navigation()
             </nav>
                         
             {
-                navOpen && <ul id="main-nav" className={ `digitizer nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-[#6a00ff]'}` } style={{ border: '0.2em solid #00ff4c' }}>
+                navOpen && <ul id="main-nav" className={ `digitizer nav-menu-${navOpen ? 'show-menu' : ''} ${navOpen && 'bg-black'}` }>
 
-                    <Link className="nav-link" href="/"><li>Home</li></Link>
-                    <Link className="nav-link" href="/blogs"><li>Blogs</li></Link>
-                    <Link className="nav-link" href="/artwork"><li>Artwork</li></Link>
-                    <Link className="nav-link" href="/animation"><li>Animation</li></Link>
-                    <Link className="nav-link" href="/books"><li>Books</li></Link>
-                    <Link className="nav-link" href="/software"><li>Games</li></Link>
-                    <Link onClick={ goToStore } className="nav-link" href=""><li>Store</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="max-sm:pt-[50%] nav-link" href="/"><li>Home</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="nav-link" href="/blogs"><li>Blogs</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="nav-link" href="/artwork"><li>Artwork</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="nav-link" href="/animation"><li>Animation</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="nav-link" href="/books"><li>Books</li></Link>
+                    <Link onClick={ () => toggleNav(false) } className="nav-link" href="/software"><li>Games</li></Link>
+                    <Link onClick={ goToStore } className=" max-sm:pb-[50%] nav-link" href=""><li>Store</li></Link>
 
                 </ul> 
             }
 
-        </>
+        </div>
     );
 }
 

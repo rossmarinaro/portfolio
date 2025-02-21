@@ -40,15 +40,13 @@ export default function RootLayout({ children }: { children: React.ReactNode })
  
         <body>    
 
-            <Navigation />
-         
             <Image loading="eager" width={ 250 } height={ 250 } src={ portrait } alt="main image" className="ml-[42%] mt-[2%] max-sm:hidden" />
 
-            <div className="lg:w-[60%] flex flex-col flex-wrap items-center md:mt-5 lg:ml-[20%]">
+            <div className="lg:w-[60%] flex flex-col flex-wrap items-center md:mt-5 max-sm:mt-[20%] lg:ml-[20%]">
                 { children }           
                 <Footer />
             </div>
-  
+            <Navigation />
         </body>
 
         <FlyonuiScript />

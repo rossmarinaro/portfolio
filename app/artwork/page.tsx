@@ -15,7 +15,7 @@ export default function Artwork()
     component = (artType: string) => {   
 
         return (       
-            <figure className="gallery rounded-xl mb-[5%] pt-[2%]">        
+            <figure className="rounded-xl mb-[5%] pt-[2%]">        
                 <Carousel arr={ artType === 'Illustration' ? digital : AI } /> 
             </figure>
         );

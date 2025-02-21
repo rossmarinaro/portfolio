@@ -27,9 +27,9 @@ export default function Carousel(props: { arr: any[] })
             id="multi-slide" 
             data-carousel='{ "loadingClasses": "opacity-0", "slidesQty": { "xs": 2, "lg": 3 } }'
             className="relative bg-black rounded-xl"
-            style={{ visibility: dimensions.width >= 300 ? 'visible' : 'hidden' }}
+            style={{ visibility: dimensions.width >= 300 ? 'visible' : 'hidden', border: '0.2em solid black' }} 
             > 
-            <div className="relative carousel max-sm:w-[200px] sm:max-w-4xl"> 
+            <div className="relative carousel sm:max-w-4xl sm:max-h-4xl"> 
                 <div className="carousel-body opacity-0">
                     { props.arr.map((obj, index) => (<div key={ index }><ImageCard index={ index } href={ obj.image.src } src={ obj.image }/></div>)) }
                 </div>
