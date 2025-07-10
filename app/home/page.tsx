@@ -5,7 +5,6 @@ import Link from 'next/link'
 import Image from 'next/image'
 import { siteRoutes } from './siteRoutes'
 
-
 export default function Home()
 {
     return ( 

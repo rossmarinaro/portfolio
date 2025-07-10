@@ -2,7 +2,7 @@ import dynamic from 'next/dynamic'
 import { Suspense } from 'react'
 
 
-const Main = dynamic(() => import ('./home/page')/* , { suspense: true } */);
+const Main = dynamic(() => import ('./home/page'));
 
 export default function Home() 
 {

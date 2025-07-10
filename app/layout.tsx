@@ -1,15 +1,16 @@
+
 import './globals.css' 
 import './blog.css' 
 
 import { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import Image from 'next/image'
+import { Suspense } from 'react'
 import Head from 'next/head'
 import Navigation from './components/nav'
 import AppStore from './context/appStore'
 import Footer from './components/Footer'
-import portrait from '../public/me.png'
 import FlyonuiScript from './components/flyonUILoader'
+import Game from './components/Game'
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -40,7 +41,10 @@ export default function RootLayout({ children }: { children: React.ReactNode })
  
         <body>    
 
-            <Image loading="eager" width={ 250 } height={ 250 } src={ portrait } alt="main image" className="ml-[42%] mt-[5%] max-sm:hidden" />
+            <Suspense fallback={<div>Loading...</div>}>
+                <Game />
+                <br />
+            </Suspense>
 
             <div className="lg:w-[60%] flex flex-col flex-wrap items-center md:mt-5 max-sm:mt-[20%] lg:ml-[20%]">
                 { children }           
