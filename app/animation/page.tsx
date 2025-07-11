@@ -2,7 +2,7 @@ export default function Animation()
 {
     return (
         
-        <section className="max-sm:pb-[5%] md:grid md:grid-cols-2 flex flex-col flex-wrap items-center mt-[5%] lg:ml-[20%]">
+        <section className="max-sm:pb-[5%] md:grid md:grid-cols-2 flex flex-col flex-wrap items-center mt-[5%] max-sm:mt-[10%] lg:ml-[20%]">
         
             <iframe className="max-sm:w-full mb-[1%]" style={{ border: '0.2em solid black' }} title="2d animation" src="https://www.youtube.com/embed/1VrP5lbTfOk" frameBorder={ 0 } allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
             <iframe className="max-sm:w-full mb-[1%]" style={{ border: '0.2em solid black' }} title="2d animation" src="https://www.youtube.com/embed/V6Fn7a0bDj0" frameBorder={ 0 } allow="accelerometer:autoplay;encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe> 

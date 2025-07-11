@@ -6,13 +6,6 @@ import "@babylonjs/loaders/glTF";
 import { useRef, useEffect, useState } from 'react';
 import * as BABYLON from "@babylonjs/core";
 
-function hasWebGl() {
-    try {
-        return window.WebGLRenderingContext;
-    } catch (err) {
-        return false;
-    }
-}
 
 const Game = () => {
 
@@ -43,7 +36,7 @@ const Game = () => {
 
     (async () => {
 
-        const sushi = await BABYLON.LoadAssetContainerAsync("../../ikura.glb", scene);
+        const sushi = await BABYLON.LoadAssetContainerAsync("../../public/ikura.glb", scene);
 
         sushi.materials.forEach((material: BABYLON.Material) => scene.addMaterial(material));
         sushi.meshes.forEach((mesh: BABYLON.AbstractMesh) => {           
@@ -83,7 +76,7 @@ const Game = () => {
     })();
   }, []);
 
-  /* if (hasWebGl()) */ return <canvas className="mt-[4%] mb-[2%] outline-none" ref={ canvasRef } width={ canvasWidth } height={ canvasHeight } /> 
+   return <canvas className="mt-[4%] mb-[2%] outline-none" ref={ canvasRef } width={ canvasWidth } height={ canvasHeight } /> 
 
 };
 

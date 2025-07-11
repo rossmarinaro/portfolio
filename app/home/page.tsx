@@ -7,6 +7,14 @@ import { siteRoutes } from './siteRoutes'
 import { Suspense } from 'react' 
 import Game from '../components/Game'
 
+function hasWebGl() {
+    try {
+        return window.WebGLRenderingContext;
+    } catch (err) {
+        return false;
+    }
+}
+
 export default function Home()
 {
     return ( 
@@ -14,7 +22,7 @@ export default function Home()
         <section /* className="component" */ className="component">
 
             <Suspense fallback={<div>Loading...</div>}>
-                <Game />
+                { /* if (hasWebGl()) */ <Game /> }
             </Suspense>
 
             <div className="p-5 content-container container rounded-xl lg:w-[60%] flex flex-col flex-wrap items-center md:mt-5 max-sm:mt-[20%] lg:ml-[20%] " >  
