@@ -21,7 +21,7 @@ export default function Home()
         
         <section /* className="component" */ className="component">
 
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div className='bg-white'>Loading...</div>}>
                 { /* if (hasWebGl()) */ <Game /> }
             </Suspense>
 

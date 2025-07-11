@@ -24,7 +24,7 @@ export default function Carousel(props: { arr: any[] })
         <div
             id="multi-slide" 
             data-carousel='{ "loadingClasses": "opacity-0", "slidesQty": { "xs": 2, "lg": 3 } }'
-            className="relative bg-black rounded-xl"
+            className="relative bg-black rounded-xl max-sm:w-full"
             style={{ visibility: dimensions.width >= 300 ? 'visible' : 'hidden', border: '0.2em solid black' }} 
             > 
             <div className="relative carousel sm:max-w-4xl sm:max-h-4xl"> 

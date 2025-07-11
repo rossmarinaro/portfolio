@@ -7,7 +7,7 @@ import { useRef, useEffect, useState } from 'react';
 import * as BABYLON from "@babylonjs/core";
 
 
-const Game = () => {
+export default function Game() {
 
   const [ canvasWidth, setCanvasWidth ] = useState(0);
   const [ canvasHeight, setCanvasHeight ] = useState(0);
@@ -36,7 +36,7 @@ const Game = () => {
 
     (async () => {
 
-        const sushi = await BABYLON.LoadAssetContainerAsync("../../public/ikura.glb", scene);
+        const sushi = await BABYLON.LoadAssetContainerAsync(process.env.NODE_ENV === 'production' ? "./ikura.glb" : "../../ikura.glb", scene);
 
         sushi.materials.forEach((material: BABYLON.Material) => scene.addMaterial(material));
         sushi.meshes.forEach((mesh: BABYLON.AbstractMesh) => {           
@@ -79,11 +79,6 @@ const Game = () => {
    return <canvas className="mt-[4%] mb-[2%] outline-none" ref={ canvasRef } width={ canvasWidth } height={ canvasHeight } /> 
 
 };
-
-export default Game;
-
-
-
 
 
 

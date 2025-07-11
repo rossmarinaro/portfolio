@@ -73,7 +73,7 @@ export default function Blogs()
                         )
                     ) : 
                     <tr>
-                        <td className="mb-2 text-1xl font-semibold" style={{ marginLeft: '100%' }}> N/A </td> 
+                        <td className="max-sm:mt-[20%] mb-2 text-1xl font-semibold" style={{ marginLeft: '100%' }}> N/A </td> 
                     </tr>
                 }
 
