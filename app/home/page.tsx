@@ -4,14 +4,20 @@ import Marquee from 'react-fast-marquee'
 import Link from 'next/link'
 import Image from 'next/image'
 import { siteRoutes } from './siteRoutes'
+import { Suspense } from 'react' 
+import Game from '../components/Game'
 
 export default function Home()
 {
     return ( 
         
-        <section className="component">
+        <section /* className="component" */ className="component">
 
-            <div className="p-5 content-container col-2-2 container rounded-xl" >  
+            <Suspense fallback={<div>Loading...</div>}>
+                <Game />
+            </Suspense>
+
+            <div className="p-5 content-container container rounded-xl lg:w-[60%] flex flex-col flex-wrap items-center md:mt-5 max-sm:mt-[20%] lg:ml-[20%] " >  
 
                 <Marquee /* gradient */ pauseOnHover={true}>
 
@@ -33,7 +39,7 @@ export default function Home()
 
                 </Marquee> 
 
-                <h1 className="digitizer heading-style pl-[43%]">ABOUT</h1>	
+                <h1 className="digitizer heading-style">ABOUT</h1>	
 
                 <p className="indent-[2%]"> Ross is a multi-media producer specializing in digital asset creation, illustration, 2d animation,
                     and software engineering. Originally from New Jersey, he currently lives in Philadelphia, PA USA.
@@ -43,7 +49,7 @@ export default function Home()
                     sushi, caviar, or chicken tenders.
                 </p>	
 
-                <h1 className="digitizer heading-style pl-[42%]">SERVICES</h1>	
+                <h1 className="digitizer heading-style">SERVICES</h1>	
 
                 <p className="indent-[2%]"> My name is Ross, and I am here to elaborate. Feel free to explore the various nuances of this site, there is
                     a decent amount to unpack. I specialize in custom stylized illustration for print or web, 

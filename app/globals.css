@@ -8,6 +8,9 @@
     src: local('digitizer'), url('../public/fonts/digitizer.woff') format('woff');
 }
 
+body {
+    overflow-x: hidden;
+}
 
 html {
     width: 100%;

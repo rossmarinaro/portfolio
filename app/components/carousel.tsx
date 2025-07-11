@@ -5,15 +5,13 @@ import { useState, useEffect } from "react"
 
 export default function Carousel(props: { arr: any[] })
 {
-    const [ dimensions, setDimensions ] = useState({ width: 0, height: 0 }),
-
-    handleResize = (width: number, height: number) => setDimensions({ width, height });
+    const [ dimensions, setDimensions ] = useState({ width: 0, height: 0 });
 
     useEffect(() => {
 
-        handleResize(window.innerWidth, window.innerHeight);
+        setDimensions({ width: window.innerWidth, height: window.innerHeight });
 
-        window.addEventListener("resize", () => handleResize(window.innerWidth, window.innerHeight), false);
+        window.addEventListener("resize", () => setDimensions({ width: window.innerWidth, height: window.innerHeight }), false);
 
         return () => window.removeEventListener("resize", () => {});
 

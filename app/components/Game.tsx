@@ -3,10 +3,9 @@
 import "@babylonjs/loaders";
 import "@babylonjs/loaders/glTF";
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import * as BABYLON from "@babylonjs/core";
 
-import { Suspense } from 'react'
 function hasWebGl() {
     try {
         return window.WebGLRenderingContext;
@@ -17,15 +16,30 @@ function hasWebGl() {
 
 const Game = () => {
 
+  const [ canvasWidth, setCanvasWidth ] = useState(0);
+  const [ canvasHeight, setCanvasHeight ] = useState(0);
   const canvasRef = useRef(null);
 
   //load canvas on mount
 
   useEffect(() => {
 
+    const handleWheel = (event: Event) => event.preventDefault();
+    const handleResize = () => {
+        setCanvasWidth(innerWidth);
+        setCanvasHeight(400);
+    };
+
+    handleResize();
+
+    window.addEventListener("resize", handleResize, false);
+
     const canvas = canvasRef.current;
     const engine = new BABYLON.Engine(canvas, true);
     const scene = new BABYLON.Scene(engine);
+
+    if (canvas)
+        (canvas as HTMLCanvasElement).addEventListener('wheel', handleWheel, { passive: false});
 
     (async () => {
 
@@ -48,7 +62,7 @@ const Game = () => {
         camera.upperBetaLimit = Math.PI / 2 - 0.1;
         camera.lowerRadiusLimit = 2.5;
         camera.upperRadiusLimit = 5;
-        camera.wheelPrecision = 5;
+        camera.wheelPrecision = 15;
         
         camera.setTarget(new BABYLON.Vector3(0, 1, 0));
         camera.setPosition(new BABYLON.Vector3(0, 25, -50));
@@ -61,11 +75,15 @@ const Game = () => {
         return () => {
             engine.dispose();
             scene.dispose();
+            window.removeEventListener("resize", handleResize);
+
+            if (canvas)
+                (canvas as HTMLCanvasElement).removeEventListener('wheel', handleWheel);
         };
     })();
   }, []);
 
-  /* if (hasWebGl()) */ return <canvas className="ml-[10%] mt-[4%] outline-none" ref={ canvasRef } width={ 1200 } height={ 400 }/> 
+  /* if (hasWebGl()) */ return <canvas className="mt-[4%] mb-[2%] outline-none" ref={ canvasRef } width={ canvasWidth } height={ canvasHeight } /> 
 
 };
 

@@ -38,7 +38,7 @@ export default function Navigation()
                 </div>
 
                 <h1 className="md:ml-[40%] max-lg:ml-[50%] max-sm:ml-[10%] mt-[20px] heading-style digitizer" style={{ backdropFilter: 'blur(5px)', border: '0.2em solid black' }}>Ross Marinaro Portfolio</h1>
-                <Image loading="eager" width={ 60 } height={ 60 } src={ portrait } alt="main image" className="ml-[2%] max-sm:hidden" />
+                <Image loading="eager" width={ 60 } height={ 60 } src={ portrait } alt="main image" className="ml-[2%] " /> {/* max-sm:hidden */}
             </nav>
                         
             {
