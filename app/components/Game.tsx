@@ -46,7 +46,17 @@ export default function Game() {
 
         const directionalLight = new BABYLON.DirectionalLight("directionLight", new BABYLON.Vector3(33, -60, 33), scene);
         directionalLight.intensity = 2;
-    
+
+        const directionalLight2 = new BABYLON.DirectionalLight("directionLight2", new BABYLON.Vector3(-63, -6, -63), scene);
+        directionalLight2.intensity = 2;
+        directionalLight2.diffuse = new BABYLON.Color3(0, 1, 0);
+        directionalLight2.specular = new BABYLON.Color3(1, 1, 1);
+
+        const directionalLight3 = new BABYLON.DirectionalLight("directionLight3", new BABYLON.Vector3(0, 20, 0), scene);
+        directionalLight3.intensity = 10;
+        directionalLight3.diffuse = new BABYLON.Color3(0, 1, 0);
+        directionalLight3.specular = new BABYLON.Color3(1, 1, 1);
+
         const camera = new BABYLON.ArcRotateCamera("camera", Math.PI / 2, 1, 70, BABYLON.Vector3.Zero(), scene);
 
         camera.lowerAlphaLimit = -0.1;
